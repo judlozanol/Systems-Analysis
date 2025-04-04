@@ -1,0 +1,63 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+\usepackage{setspace}
+\usepackage{hyperref}
+\onehalfspacing
+
+\title{Main Objective and Limitations of the AI Football Competition}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Objectives of the Competition}
+
+The main objective of the competition organized by Manchester City F.C. and Google Research is to develop artificial intelligence agents with the ability to play football in a simulated environment.
+
+In order to face all kinds of environments without fear of the failure that would come from doing so in official matches, the competition aims to, through simulated scenarios, observe the efficiency of different actions and possibilities that a player could face, thanks to all the data it has, such as position, ball rotation, and many other elements. But these scenarios are simulated under perfect conditions like weather or the field, which in a real match are fundamental variables that could greatly affect the development of the game.
+
+\section*{Limitations}
+
+As mentioned earlier, these scenarios are simulated under perfect conditions. This creates a big limitation as it cannot transmit 100\% of the environment that would be faced in a real match.
+
+On the other hand, even though the environment presents a large number of possibilities and plays for the artificial intelligence to use and clearly improve, not all the range of possibilities that a real-life player has are present, such as tactical fouls, prepared set-piece plays, specific dribbles, or even acting to waste time on the field.
+
+In addition to the lack of context that artificial intelligence could face, a player drawing 0-0 in the 20th minute would not play the same way as when losing 1-0 in the 80th minute. A sport like football, in which a match lasts so long, has different moments to face, and these must be handled differently depending on the needs of the moment the team is going through.
+
+A major limitation that can be seen is the mentality and pressure that a player may face in an important match, which is clearly not reflected in artificial intelligence. And this is a very decisive factor when facing a match, in addition to the physical discomfort that players may suffer, which is not taken into account at any time.
+
+\section*{Available Data (Observations)}
+
+Each agent receives, at every step of the game, an observation of the full game state, which includes:
+
+\begin{itemize}
+    \item Position, velocity, and fatigue of all players (from both teams).
+    \item Ball position and possession.
+    \item Current match score.
+    \item Previous actions (\textit{sticky actions}).
+    \item Information about the currently controlled player.
+    \item Current game mode (corner kick, throw-in, etc.).
+\end{itemize}
+
+\vspace{0.3cm}
+
+
+\section*{Available Actions (19 in total)}
+
+Each agent can select one action per turn, from the following:
+
+\begin{itemize}
+    \item Movement: \texttt{Action.Top, Action.Bottom, Action.Left, Action.Right}.
+    \item Sprinting: \texttt{Action.Sprint}.
+    \item Shooting and passing: \texttt{Action.Shot, Action.Pass, Action.LongPass, Action.HighPass}.
+    \item Ball control: \texttt{Action.Dribble, Action.ReleaseDribble}.
+    \item Defense: \texttt{Action.Slide}.
+    \item Other direction and control actions.
+\end{itemize}
+
+\end{document}
