@@ -1,27 +1,12 @@
-\documentclass[12pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
-\usepackage{geometry}
-\geometry{a4paper, margin=2.5cm}
-\usepackage{setspace}
-\usepackage{hyperref}
-\onehalfspacing
+\section{Main Objective and Limitations of the AI Football Competition}
 
-\title{Main Objective and Limitations of the AI Football Competition}
-
-\date{}
-
-\begin{document}
-
-\maketitle
-
-\section*{Objectives of the Competition}
+\subsection*{Objectives of the Competition}
 
 The main objective of the competition organized by Manchester City F.C. and Google Research is to develop artificial intelligence agents with the ability to play football in a simulated environment.
 
 In order to face all kinds of environments without fear of the failure that would come from doing so in official matches, the competition aims to, through simulated scenarios, observe the efficiency of different actions and possibilities that a player could face, thanks to all the data it has, such as position, ball rotation, and many other elements. But these scenarios are simulated under perfect conditions like weather or the field, which in a real match are fundamental variables that could greatly affect the development of the game.
 
-\section*{Limitations}
+\subsection*{Limitations}
 
 As mentioned earlier, these scenarios are simulated under perfect conditions. This creates a big limitation as it cannot transmit 100\% of the environment that would be faced in a real match.
 
@@ -31,7 +16,7 @@ In addition to the lack of context that artificial intelligence could face, a pl
 
 A major limitation that can be seen is the mentality and pressure that a player may face in an important match, which is clearly not reflected in artificial intelligence. And this is a very decisive factor when facing a match, in addition to the physical discomfort that players may suffer, which is not taken into account at any time.
 
-\section*{Available Data (Observations)}
+\subsection*{Available Data (Observations)}
 
 Each agent receives, at every step of the game, an observation of the full game state, which includes:
 
@@ -46,8 +31,7 @@ Each agent receives, at every step of the game, an observation of the full game 
 
 \vspace{0.3cm}
 
-
-\section*{Available Actions (19 in total)}
+\subsection*{Available Actions (19 in total)}
 
 Each agent can select one action per turn, from the following:
 
@@ -60,4 +44,3 @@ Each agent can select one action per turn, from the following:
     \item Other direction and control actions.
 \end{itemize}
 
-\end{document}

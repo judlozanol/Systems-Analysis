@@ -1,0 +1,36 @@
+\documentclass[12pt, a4paper]{report}  % or report/book/ieeeconf
+\usepackage[utf8]{inputenc}             % Encoding
+\usepackage[T1]{fontenc}                % Better font handling
+\usepackage[english]{babel}            % Language settings
+\usepackage{graphicx}                   % For images
+\usepackage{hyperref}                   % Clickable links
+\usepackage[backend=biber, style=numeric]{biblatex} % Modern bibliography
+\usepackage{enumitem}
+\addbibresource{references.bib} 
+
+% ===== Document Structure =====
+\begin{document}
+
+% Title
+\title{Workshop No. 1 — Kaggle Systems Engineering Analysis}
+\author{Juan David Escallon Guzmán \and Juan Diego Lozano Luna \and Jorge Eduardo Muñoz Gomez}
+\maketitle
+
+% Table of Contents
+\tableofcontents
+\newpage
+
+% Summary of the competition
+\input{escallon/MainObjective.tex} 
+
+% Key Elements
+\input{jorge/keyElements.tex} 
+
+%Sensitivity
+\input{jorge/sensitivity.tex} 
+
+%Chaos Theory
+\input{escallon/Chaos.tex}
+
+
+\end{document}

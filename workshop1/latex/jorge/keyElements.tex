@@ -1,0 +1,39 @@
+\section{Key elements of the competition}
+
+\subsection*{Environment observations:}
+\begin{itemize}
+    \item Ball information: position, direction, rotation, and possession.
+    \item Team information: position, direction, fatigue level, cards, and roles.
+    \item Controlled player: specifies which player is being controlled at the moment.
+    \item Game mode: includes contextual information such as corner kick, penalty, match start, etc.
+\end{itemize}
+
+\subsection*{Available actions:}
+\begin{itemize}
+    \item Up to 19 different actions can be executed, including movement, passes, shots, sprint, dribble, among others. These are detailed in the observation file.
+\end{itemize}
+
+\subsection*{Agent configurations:}
+\begin{itemize}
+    \item Architecture of the model used.
+    \item Training algorithm applied.
+    \item Observation representation technique: can be raw, simple115\_v2, or pixels.
+\end{itemize}
+
+\subsection*{System process:}
+\begin{itemize}
+    \item To evaluate its performance, each agent automatically pits itself against other agents with comparable skill levels (determined by $\mu$).
+    \item Eight matches are played every day. Each agent's score is modified in accordance with:
+    \begin{itemize}
+        \item The match's outcome (win, draw, or loss).
+        \item The variation (based on $\mu$) between the expected and actual result.
+        \item The degree of uncertainty ($\sigma$) connected to every agent.
+    \end{itemize}
+\end{itemize}
+
+\subsection*{System outputs:}
+\begin{itemize}
+    \item Approximate rating: Denoted by the $\mu$ value of the agent.
+    \item Last leaderboard: A list displaying each team's best agent.
+    \item Performance history: Record of the performance of all agents.
+\end{itemize}
