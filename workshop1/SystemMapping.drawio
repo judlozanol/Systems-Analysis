@@ -12,10 +12,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3v2fFaVHqGeE8LLwmJP1-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#647687;strokeColor=#314354;" edge="1" parent="1" source="3v2fFaVHqGeE8LLwmJP1-7" target="3v2fFaVHqGeE8LLwmJP1-9">
+        <mxCell id="3v2fFaVHqGeE8LLwmJP1-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#647687;strokeColor=#314354;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3v2fFaVHqGeE8LLwmJP1-7" target="3v2fFaVHqGeE8LLwmJP1-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="230" y="615" />
+              <mxPoint x="260" y="615" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -30,6 +30,14 @@
         <mxCell id="3v2fFaVHqGeE8LLwmJP1-63" value="ranks in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3v2fFaVHqGeE8LLwmJP1-62">
           <mxGeometry x="0.0558" relative="1" as="geometry">
             <mxPoint x="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3v2fFaVHqGeE8LLwmJP1-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="3v2fFaVHqGeE8LLwmJP1-7" target="3v2fFaVHqGeE8LLwmJP1-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3v2fFaVHqGeE8LLwmJP1-76" value="is&lt;br&gt;storaged" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3v2fFaVHqGeE8LLwmJP1-75">
+          <mxGeometry x="-0.0007" y="4" relative="1" as="geometry">
+            <mxPoint x="-4" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3v2fFaVHqGeE8LLwmJP1-7" value="IA Agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -225,7 +233,27 @@
           <mxGeometry x="430" y="470" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3v2fFaVHqGeE8LLwmJP1-72" value="Winner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="1040" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3v2fFaVHqGeE8LLwmJP1-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#A680B8;" edge="1" parent="1" source="3v2fFaVHqGeE8LLwmJP1-74" target="3v2fFaVHqGeE8LLwmJP1-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="760" />
+              <mxPoint x="1030" y="760" />
+              <mxPoint x="1030" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3v2fFaVHqGeE8LLwmJP1-80" value="throws" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3v2fFaVHqGeE8LLwmJP1-79">
+          <mxGeometry x="-0.9502" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3v2fFaVHqGeE8LLwmJP1-74" value="Competition Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3v2fFaVHqGeE8LLwmJP1-78" value="Soccer&lt;br&gt;Research Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="690" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
