@@ -1,0 +1,51 @@
+\graphicspath{{lozano/}}
+
+\section{Relationships Mapping}
+
+Based on the key elements identificated in the past sections, it's proposed the next diagram to representate the system of the competition, where it was drew the parts of the system, and the most significant relationships between them:
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{SystemMapping} 
+    \caption{Competition as a system}
+\end{figure}
+
+\begin{enumerate}
+
+    \item \textbf{Inputs:}
+    \begin{itemize}
+        \item Competitors who wants to participate in the competition.
+    \end{itemize}
+
+    \item \textbf{Elements of the system:}
+    \begin{itemize}
+        \item IA Agents submitted by competitors.
+        \item Leaderboard that shows the top of the best IA Agents.
+        \item Competition Database that stores all of the submissions made by the competitors.
+        \item Match sub-system where the IA Agents compete with each other, composed of:
+        \begin{itemize}
+            \item Players.
+            \item Soccer field.
+            \item Match rules.
+            \item Match score.
+            \item Offensive team.
+            \item Defensive team.
+            \item Ball.
+            \item Observation wrappers.
+        \end{itemize}
+    \end{itemize}
+
+    \item \textbf{Outputs:}
+    \begin{itemize}
+        \item Winners of the competition.
+        \item Soccer Research Data.
+    \end{itemize}
+\end{enumerate}
+
+\subsection*{System Flow}
+
+The system recieves competitors who submit their IA Agent to participate, having two processes with it: the IA agent is stored on the Database of the competition, and the IA agent is tested in a match against itself to test if it works.
+
+If it doesn't pass the test, it will be returned as error. Otherwise, it is asignated with a base $\mu$ that represents the estimated skill of the agent, and a $\sigma$ that represents the uncertainty of that estimate, and will decrease everytime that the agent plays.
+
+During the competition, the IA Agent with similar $\mu$ will play matches against each other. The winner increase its $\mu$
