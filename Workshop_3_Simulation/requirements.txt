@@ -1,0 +1,24 @@
+# == CORE ENVIRONMENT SETUP ==
+
+# Google Football
+gfootball==1.0.2
+
+# RL Framework
+stable-baselines3[extra]==1.7.0
+gym==0.21.0  # compatible con SB3 1.7.0
+
+# Dependencies for observation processing and RL training
+numpy>=1.19.0
+scipy
+opencv-python-headless  # evita conflictos en servidores sin GUI
+
+# TensorBoard for visual monitoring
+tensorboard==2.12.1
+protobuf==3.20.3  # compatible con tensorboard 2.12
+
+# Data handling and plotting
+pandas
+matplotlib
+
+# Optional: for tqdm-based progress bars
+tqdm
