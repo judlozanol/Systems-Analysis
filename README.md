@@ -8,3 +8,7 @@ In this workshop was selected a Kaggle competition related to training of IA Age
 ## Workshop 2. Kaggle Systems Design 
 Building on Workshop 1's analysis, this project designs a Reinforcement Learning agent (PPO algorithm) for the Google Research Football competition, implementing input/output adapters for data standardization, an action chooser with RL decision-making, position-specific reward systems, and model backups to prevent training regressions, using Python with TensorFlow Agents and Docker.
 - [Workshop 2](./workshop2/Workshop2.pdf)
+
+## Workshop 3. Kaggle System Simulation
+In this workshop was compiled the principal outcomes from Workshops 1 and 2 to design simulation enviroments from our IA Agent. Beeing the Google Research Football enviroment a key element for those simulations. Also was used the library Tensorboard to effectively representate the results of training proccess, allowing us to do some final conclusions around emergent behaviors and the efectivity of the first design done.
+- [Workshop 3](./Workshop_3_Simulation/Workshop3.pdf)
