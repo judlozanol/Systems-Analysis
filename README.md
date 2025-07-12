@@ -12,3 +12,10 @@ Building on Workshop 1's analysis, this project designs a Reinforcement Learning
 ## Workshop 3. Kaggle System Simulation
 In this workshop was compiled the principal outcomes from Workshops 1 and 2 to design simulation enviroments from our IA Agent. Beeing the Google Research Football enviroment a key element for those simulations. Also was used the library Tensorboard to effectively representate the results of training proccess, allowing us to do some final conclusions around emergent behaviors and the efectivity of the first design done.
 - [Workshop 3](./Workshop_3_Simulation/Workshop3.pdf)
+
+## Final Delivery
+In this section of the repository you are going to find the summary of all the proccess of resolving the Kaggle competition by applying system analysis and design principles. You will also have access to the solution done, and the respective requiriments to try it. Finally, some auxiliar documents like a paper or a poster were generated to improve understanding in the solution.
+- [Final Report](./FinalDelivery/Final_Course_Project/Final%20Report.pdf)
+- [Slides](./FinalDelivery/AnalysisSlides.pdf)
+- [Paper](./FinalDelivery/IEEE_Paper/IEEEPaper.pdf)
+- [Poster](./FinalDelivery/Poster.pdf)
